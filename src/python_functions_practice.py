@@ -40,3 +40,15 @@ months = {
 
 def number_to_full_month_name(number):
     return months[number]
+
+def number_to_short_month_name(number):
+    return months[number][:3]
+
+def volume_of_cube(side_length):
+    return side_length * side_length * side_length
+
+def reverse_string(string):
+    return string[::-1]
+
+def temp_converter(fahrenheit):
+    return (fahrenheit - 32) / 1.8
